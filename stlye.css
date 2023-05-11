@@ -1,10 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans Nandinagari', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.cabeçalho {
+
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0 0 0;
+    font-size: 25px;
+    align-items: center;
     
 }
 
-.topo {
+.Menu {
 
+    display: flex;
+   
+    gap: 3rem;
     
+}
+
+.Menu a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.Menu a :hover{
+    color: blueviolet;
+    transition: 0.5s;
 }

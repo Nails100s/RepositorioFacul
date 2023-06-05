@@ -1,78 +1,212 @@
-*{  margin: 0;
+
+.px-4.pt-5.my-5.text-center.border-bottom {
+
     padding: 0;
-    font-family: 'Quicksand', sans-serif;
+    margin: 0;
 }
 
-body{
-    background-image: url(https://images3.alphacoders.com/104/1044851.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+.container-fluid { 
 
-.navbar.navbar-expand-lg{
-    background-color: lightgray;
-    border-bottom: 1px solid black;
-}
-
-.container-fluid {
-    margin: auto;
-    padding-top: 4px;
-    padding-left: 20px;
-    padding-bottom: 8px;
-    background-color: lightgray
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    
     
 }
 
-.container-fluid a :hover{
-    color: white;
-    transition: 0.25s;
+#Portifolio {
+
+    padding-left: 16px;
+    font-size: 27px;
+    
+}
+.nav-item :hover {
+
+    
+}
+
+
+.textosobremim {
+
+    text-align: center;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-bottom: 80px;
+}
+
+
+.Titulosobremim {
+
+    font-size: 35px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.tituloformação {
+
+    font-size: 35px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
 
 }
-.navbar-brand{
+
+.textoformação {
+
+
+    text-align: left;
+    font-size: 24px;
+    padding-right: 120px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+}
+
+.Formações {
+    text-align: left;
     font-size: 30px;
+    padding-left: 40px;
+    padding-bottom: 38px;
+    padding-top: 50px;
 
 }
 
-.navbar-nav {
-    font-size: 16px;
-    padding-left: 15px;
-    padding-top: 9px;
+.tituloatuação {
+
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.subtituloatuacao {
+
+    text-align: center;
+    
+
+    
+}
+
+.textoatuacao {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+}
+
+.titulojavascript {
+
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
 
 }
 
-.nav-item {
-    padding-right: 10px;
+.textojavascript {
+
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
 }
 
-.content{
+.textopython {
 
-    display: solid;
-    margin: 80px 550px 0px 90px;
-
-
-}
-
-
-.titulo {
-
-padding-bottom: 20px;
-font-size: 20px;
-
-
-}
-
-.nome {
-
-font-size: 23px;
-text-decoration: underline;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
 
 }
 
-.text{
-    font: 20px;
+.titulopython {
+
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+
+
+
 }
 
+.htmltitulo {
 
-.copy{
-    color: black;
+     text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.htmltexto {
+
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+
+}
+
+.csstitulo {
+   
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+.csstexto {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+
+}
+
+.titulophp {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+.textophp {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+
+}
+
+.titulosql {
+
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+
+}
+
+.textosql {
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;}
+
+
+.redessociais {
+
+    padding-left: 260px;
+    padding-bottom: 120px;
 }
